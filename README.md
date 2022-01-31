@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Implementation of a compiler for the Simple Language in <b>C++</b>.
+Implementation of a compiler for the <a href="https://github.com/Dinista/Simple-Language-Compiler/blob/main/Docs/Simple_Language_Especification(Portuguese).pdf">Simple Language</a> in <b>C++</b>.
 The primary purpose of this project is to apply the knowledge acquired in the undergraduate years, in addition to a study of how a compiler works, including lexical, syntactic, semantic builders.
 
 Project specification and documents can be found at <i>/Docs</i> folder. 
