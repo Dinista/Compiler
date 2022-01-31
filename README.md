@@ -17,4 +17,8 @@ Project specification and documents can be found at <i>/Docs</i> folder.
 
 ## How it works
 
-The front-end, a being implemented, must contain: lexical builder, syntactic builder, semantic builder and code generator intermediary (LLVM code). Finally, use the LLVM infrastructure backend to generate code executable end.
+The <b>front-end</b> implemented contains a <b>lexical</b> builder, <b>syntactic</b> builder, <b>semantic</b> builder and <b>the intermediary <a href= "https://llvm.org/docs/LangRef.html">LLVM</a> code generator</b>. The LLVM infrastructure is used as <b>backend</b> to generate the final executable code.
+
+We can divided the front-end process in the following topics.
+
+#### Lexicon Analyzer
