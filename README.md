@@ -11,10 +11,6 @@ Project specification and documents can be found at <i>/Docs</i> folder.
 <b> Project of the Compliler class. </b>
 
 
-## Simple Language
-
-
-
 ## How it works
 
 The <b>front-end</b> implemented contains a <b>lexical</b> builder, <b>syntactic</b> builder, <b>semantic</b> builder and <b>the intermediary <a href= "https://llvm.org/docs/LangRef.html">LLVM</a> code generator</b>. The LLVM infrastructure is used as <b>backend</b> to generate the final executable code.
