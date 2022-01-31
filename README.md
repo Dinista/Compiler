@@ -46,3 +46,14 @@ A well-formed entry code is able to move forward in the compilation process, as 
 
 The <a href= "https://llvm.org/docs/LangRef.html">LLVM</a> infrastructure allow to generate the <b>final executable code</b> performing as an back-end, 
 as it was mentioned before.
+
+### How to use
+
+Run:
+
+```console
+./sc [-i] [-s] [-o <destination>] <source.s>
+```
+<ul>
+  <li>-i : prints the intermediary code  (fonte.ll).
+</ul>
