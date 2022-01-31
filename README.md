@@ -52,8 +52,16 @@ as it was mentioned before.
 Run:
 
 ```console
-./sc [-i] [-s] [-o <destination>] <source.s>
+sc [-i] [-s] [-o <output>] <source.s>
 ```
 <ul>
-  <li>-i : prints the intermediary code  (fonte.ll).
+  <li>-i : prints the intermediary code  (fonte.ll).  <em>optional</em></li>
+  <li>-s : prints the assembly code (fonte.s).  <em>optional</em></li>
+  <li>-o output : generates the executable with the name "output". Otherwise the file will be called <em>a.out</em>.</li>
+  <li>source : source code, whose extension is ".s".</li>
 </ul>
+
+Example:
+```console
+sc -o resultFile sourceCode.s
+```
