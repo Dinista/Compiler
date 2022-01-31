@@ -22,3 +22,27 @@ The <b>front-end</b> implemented contains a <b>lexical</b> builder, <b>syntactic
 We can divided the front-end process in the following topics.
 
 #### Lexicon Analyzer
+
+The <a href= "https://www.geeksforgeeks.org/flex-fast-lexical-analyzer-generator"/>Fast Lexical Analyzer Generator (FLEX)</a> tool, it's used for generating lexical analyzers (scanners or lexers). A specification is create for the tool where the analyzer must <b>recognize all the language tokens</b>, then the C++ code is generated.
+
+####  Parser
+
+The <a href="https://www.gnu.org/software/bison/">Bison</a> tool is responsable for the parser process, also is in control of determining whether a
+certain program is write in the Simple Language or not. As a consequence, during grammar rules recognition, the parser generates an <b>abstract syntax tree</b>.
+
+####  Abstract Syntax Tree
+
+The <a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree"> Abstract Syntax Tree (AST)</a> is a tree representation of the abstract syntactic structure of text. Eeach node of the tree denotes a construct occurring in the text. <b>Such structure isn't standardized for common use</b>.
+
+####  Semantic Analyzer
+
+The Semantic Analyzer is in charge of <b>validating the language rules</b>. The rules are specified in the <a href="https://github.com/Dinista/Simple-Language-Compiler/blob/main/Docs/Simple_Language_Especification(Portuguese).pdf">document</a>.
+
+#### Intermediary Code Generator
+
+A well-formed entry code is able to move forward in the compilation process, as a consequence <a href= "https://llvm.org/docs/LangRef.html">LLVM</a> will generate a intermediary code.
+
+#### Final Code Generator
+
+The <a href= "https://llvm.org/docs/LangRef.html">LLVM</a> infrastructure allow to generate the <b>final executable code</b> performing as an back-end, 
+as it was mentioned before.
