@@ -28,7 +28,7 @@ certain program is write in the Simple Language or not. As a consequence, during
 
 ####  Abstract Syntax Tree
 
-The <a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree"> Abstract Syntax Tree (AST)</a> is a tree representation of the abstract syntactic structure of text. Eeach node of the tree denotes a construct occurring in the text. <b>Such structure isn't standardized for common use</b>.
+The <a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree"> Abstract Syntax Tree (AST)</a> is a tree representation of the abstract syntactic structure of text. Eeach node of the tree denotes a construct occurring in the text. <b>Such structure isn't standardized</b>.
 
 ####  Semantic Analyzer
 
